@@ -7,7 +7,7 @@ export default function ProjectDetail() {
   return (
     <div className="p-5">
       <h2>Project #{id}</h2>
-      <button onClick={() => navigate(-1)}>Back</button>
+      <button onClick={() => navigate("/#projects")}>Back</button>
     </div>
   );
 }
